@@ -80,7 +80,7 @@ Before you begin, you will need to create the Google Cloud PubSub message queue,
 
 5. Add a device to the registry using the keys you generated:
 
-    gcloud iot devices create device-id --registry=java-ed2e-sub --region=us-central1 --public-key=path=./rsa_cert.pem,type=RS256
+    gcloud iot devices create device-id --registry=java-ed2e-registry --region=us-central1 --public-key=path=./rsa_cert.pem,type=RS256
 
 
 ## Samples
